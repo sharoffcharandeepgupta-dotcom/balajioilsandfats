@@ -1,16 +1,33 @@
-# React + Vite
+# Balaji Oils & Fats Private Limited
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Official web application for **Balaji Oil & Fats Private Limited** (Balaji Group of Companies).
 
-Currently, two official plugins are available:
+Pure Quality. Trusted Taste. Every Day.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- **Framework**: React 19 + Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion & GSAP
+- **Icons**: Lucide React
+- **Smooth Scroll**: Lenis
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+- Node.js (v18+)
+- npm or pnpm
 
-## Expanding the Oxlint configuration
+### Installation
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Development Server
+```bash
+npm run dev
+```
+
+### Production Build
+```bash
+npm run build
+```
