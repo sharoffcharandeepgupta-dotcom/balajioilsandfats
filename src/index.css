@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-50: #FFF7F3;
+  --color-blue-100: #FFE6D5;
+  --color-blue-200: #FFD2B8;
+  --color-blue-300: #FFA475;
+  --color-blue-400: #FF7B3C;
+  --color-blue-500: #C00000; /* Deep Red (Primary) */
+  --color-blue-600: #E00000; /* Bright Red (Secondary) */
+  --color-blue-700: #B32F06;
+  --color-blue-800: #8E2101;
+  --color-blue-900: #6B1500;
+  --color-blue-950: #440d00;
+  
+  --color-sky-100: #FFF0EA;
+
+  --color-primary-50: #FFF7F3;
+  --color-primary-100: #FFE6D5;
+  --color-primary-200: #FFD2B8;
+  --color-primary-300: #FFA475;
+  --color-primary-400: #FF7B3C;
+  --color-primary-500: #F4511E;
+  --color-primary-600: #D83C0C;
+  --color-primary-700: #B32F06;
+  --color-primary-800: #8E2101;
+  --color-primary-900: #6B1500;
+  --color-primary-950: #440d00;
+  
+  --color-corporate-dark: #222222; /* Dark Text */
+  --color-corporate-blue: #C00000; /* Deep Red (Primary) */
+  --color-corporate-mid: #E00000; /* Bright Red (Secondary) */
+  --color-corporate-light: #FFF7F3; /* Light Section Background */
+  
+  --color-accent-gold: #F4511E; /* Orange (Accent) */
+  --color-accent-goldHover: #FF9800; /* Golden Orange (Highlight) */
+  --color-accent-goldLight: #FFF0EA; /* Light Accent Background */
+  
+  --font-sans: "Inter", sans-serif;
+  
+  --animate-fade-in: fadeIn 0.5s ease-out forwards;
+  --animate-slide-up: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-slide-down: slideDown 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-in-slow: fadeIn 1s ease-out forwards;
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Custom visual utility classes using Tailwind v4 @utility directive */
+@utility transition-smooth {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@utility text-gradient-primary {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, var(--color-corporate-dark), var(--color-corporate-blue), var(--color-primary-700));
+}
+
+@utility bg-gradient-corporate {
+  background-image: linear-gradient(to bottom right, var(--color-corporate-dark), var(--color-corporate-blue), #111111);
+}
+
+@utility glassmorphism {
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+@utility premium-shadow {
+  box-shadow: 0 10px 30px -10px rgba(34, 34, 34, 0.08), 0 1px 3px rgba(34, 34, 34, 0.02);
+}
+
+@utility premium-shadow-hover {
+  box-shadow: 0 20px 40px -15px rgba(192, 0, 0, 0.12), 0 1px 5px rgba(192, 0, 0, 0.03);
+}
+
+html {
+  scroll-behavior: smooth;
+  height: -webkit-fill-available;
+}
+
+/* Lenis smooth scrolling compatibility overrides */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  background-color: #FFFFFF; /* White */
+  color: #222222; /* Dark Text */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Custom premium animated underline link effect */
+.animated-underline {
+  position: relative;
+}
+.animated-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--color-accent-gold);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+.animated-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Scrollbar styling for modern browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fdfaf7;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2dcd7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c2b8b0;
+}
+
