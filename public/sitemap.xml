@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://balajioilsandfats.com/</loc>
+    <loc>https://www.balajioilsandfats.com/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,7 +10,7 @@
 
   <!-- Products Catalog -->
   <url>
-    <loc>https://balajioilsandfats.com/products</loc>
+    <loc>https://www.balajioilsandfats.com/products</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -18,35 +18,35 @@
 
   <!-- Product Details -->
   <url>
-    <loc>https://balajioilsandfats.com/products/refined-sunflower-oil</loc>
+    <loc>https://www.balajioilsandfats.com/products/refined-sunflower-oil</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://balajioilsandfats.com/products/pure-groundnut-oil</loc>
+    <loc>https://www.balajioilsandfats.com/products/pure-groundnut-oil</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://balajioilsandfats.com/products/refined-soybean-oil</loc>
+    <loc>https://www.balajioilsandfats.com/products/refined-soybean-oil</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://balajioilsandfats.com/products/refined-palmolein-oil</loc>
+    <loc>https://www.balajioilsandfats.com/products/refined-palmolein-oil</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://balajioilsandfats.com/products/gomatha-pooja-oil</loc>
+    <loc>https://www.balajioilsandfats.com/products/gomatha-pooja-oil</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -54,7 +54,7 @@
 
   <!-- Company & About -->
   <url>
-    <loc>https://balajioilsandfats.com/about</loc>
+    <loc>https://www.balajioilsandfats.com/about</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -62,7 +62,7 @@
 
   <!-- Manufacturing -->
   <url>
-    <loc>https://balajioilsandfats.com/manufacturing</loc>
+    <loc>https://www.balajioilsandfats.com/manufacturing</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -70,7 +70,7 @@
 
   <!-- Quality Standards -->
   <url>
-    <loc>https://balajioilsandfats.com/quality</loc>
+    <loc>https://www.balajioilsandfats.com/quality</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -78,7 +78,7 @@
 
   <!-- Branches & Network -->
   <url>
-    <loc>https://balajioilsandfats.com/branches</loc>
+    <loc>https://www.balajioilsandfats.com/branches</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -86,7 +86,7 @@
 
   <!-- Gallery -->
   <url>
-    <loc>https://balajioilsandfats.com/gallery</loc>
+    <loc>https://www.balajioilsandfats.com/gallery</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,10 +94,9 @@
 
   <!-- Contact -->
   <url>
-    <loc>https://balajioilsandfats.com/contact</loc>
+    <loc>https://www.balajioilsandfats.com/contact</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
-
